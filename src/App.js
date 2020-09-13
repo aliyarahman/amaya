@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-      <header className="heyamaya">
+      <header className="callout">
         <h1>Hey Amaya!</h1>
-        <p>Bet you can't change the color of this page</p>
+        <h2>Bet you can't change the <span className="gold">colors</span> on this page</h2>
+
       </header>
     </div>
   );
